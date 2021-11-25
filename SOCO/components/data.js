@@ -2,6 +2,7 @@ import Song from '../models/Song';
 import Genre from '../models/Genre';
 
 export const GENRES = [
+  //genre
   new Genre(
     '1',
     'Romantic',
