@@ -41,7 +41,7 @@ const HomeScreen = (props) => {
     <View style={{backgroundColor: 'black', padding: 10}}>
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
-          <Text style={styles.header}>Namaste!</Text>
+          <Text style={styles.header}>SOCO</Text>
           {/* <TouchableOpacity
             onPress={() => {
               props.navigation.navigate('Search');//added just for test purpose
