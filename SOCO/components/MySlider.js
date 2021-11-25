@@ -20,6 +20,7 @@ const MySlider = (props) => {
     return `${minutes}:${seconds}`; //using back ticks to dynamically inject the time
   };
 
+  //change in slider
   const changeSlider = (val) => {
     console.log(val);
     TrackPlayer.seekTo(val);//seeks to a specified time position in secs
