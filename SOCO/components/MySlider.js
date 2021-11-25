@@ -6,6 +6,7 @@ import TrackPlayer, {useProgress} from 'react-native-track-player';
 
 import Colors from '../components/Colors';
 
+//slider
 const {width, height} = Dimensions.get('window');
 const MySlider = (props) => {
   const {position, duration} = useProgress(); //destructuring to get the position and duration
