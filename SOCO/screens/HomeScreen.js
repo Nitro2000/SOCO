@@ -49,7 +49,7 @@ const HomeScreen = (props) => {
             <Text>Search</Text>
           </TouchableOpacity> */}
         </View>
-        <Text style={styles.subHeader}>Choose your favourite genre!</Text>
+        <Text style={styles.subHeader}>Choose your favourite genre</Text>
 
         <View style={styles.listOfGenres}>
           <FlatList
